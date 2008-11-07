@@ -17,3 +17,11 @@ production:
   adapter: sqlite3
   database: db/production.sqlite3
   timeout: 5000
+
+development:
+  adapter: mysql
+  database: breakout_development
+  host: localhost
+  username: root
+  password:
+  encoding: utf8
