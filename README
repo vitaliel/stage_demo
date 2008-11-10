@@ -1,4 +1,4 @@
-== Welcome to Rails-
+== Welcome to Rails
 
 2. Change directory into myapp and start the web server: <tt>script/server</tt> (run with --help for options)
 3. Go to http://localhost:3000/ and get "Welcome aboard: You’re riding the Rails!"
@@ -7,6 +7,8 @@
 Sergio Simple Test
 
 == Web Servers
+
+What about thin?
 
 By default, Rails will try to use Mongrel and lighttpd if they are installed, otherwise
 Rails will use WEBrick, the webserver that ships with Ruby. When you run script/server,
