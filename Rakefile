@@ -7,4 +7,5 @@ require 'rake'
 require 'rake/testtask'
 require 'rake/rdoctask'
 
+# why so many tasks? most devs do not use them.
 require 'tasks/rails'
